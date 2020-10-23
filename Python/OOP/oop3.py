@@ -32,8 +32,18 @@ class Pet():
 
 
 class Cat(Pet):  # Child/derived class to Pet
+    def __init__(self, name, age, color):
+        # self.name = name  # This is bad
+        # self.age = age  # This is bad
+        super().__init__(name, age)  # Run the parent class __init__ first
+        self.color = color
+
+    def show(self):
+        print(f"I am {self.name} and I am {self.age} years old and I am {self.color}")
+
     def speak(self):  # Overwrite the speak method
         print("Meow")
+
 
 
 class Dog(Pet):
@@ -49,7 +59,7 @@ p = Pet("Bruno", 14)
 p.show()
 p.speak()
 
-c = Cat("Lily", 10)
+c = Cat("Lily", 10, "Orange")
 c.show()
 c.speak()
 
