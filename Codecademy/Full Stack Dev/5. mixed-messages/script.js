@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+const quote_p = document.getElementById('quote');
+const author_span = document.getElementById('author');
+
 // Read csv file
 fs.readFile('./quotes.csv',function (err,data) {
   // Error check
@@ -20,5 +23,7 @@ fs.readFile('./quotes.csv',function (err,data) {
     splitted = quoteArr[randomIndex].slice(1, -2).split('","');
     author = splitted[0];
   }
+  quote_p.innerText = quote;
+  author_span.innerText = author;
   console.log(`${author}\n${quote}`);
 });
