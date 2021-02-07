@@ -4,9 +4,13 @@ This Random Quote Generator read [motivational quotes](https://gist.github.com/J
 
 ## Version
 
+### 1.1.0 
++ Only showing it to console
++ Fix bug
+
 ### 1.0.0 
 + Only showing it to console
-+ if an author have multiple quotes, the second to n-th quote will not have the author's name
++ If an author have multiple quotes, the second to n-th quote will not have the author's name
 
 ## Source 
 
