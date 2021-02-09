@@ -12,8 +12,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to top left, #b8d3f5 0%, #fcfcfc 100%);
-    color: #4a4d4d;
+    background-color: #111111;
+    color: #b7b7b7;
     font-weight: 500;
 }
 
@@ -21,6 +21,7 @@ p {
     font-size: 2rem;
     width: 500px;
     animation: fadeIn ease 2s;
+    font-style: italic;
 }
 
 span {

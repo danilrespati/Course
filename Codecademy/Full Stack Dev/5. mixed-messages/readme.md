@@ -4,6 +4,9 @@ This Random Quote Generator read [motivational quotes][1] from csv file then sho
 
 ## Version
 
+### 2.1.1 
++ Change background and text color
+
 ### 2.1.0 
 + Change background color
 + Text styling
