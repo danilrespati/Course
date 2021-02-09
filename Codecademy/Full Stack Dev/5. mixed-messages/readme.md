@@ -5,6 +5,7 @@ This Random Quote Generator read [motivational quotes][1] from csv file then sho
 ## Version
 
 ### 2.1.1 
++ Auto-generating random quote every few seconds
 + Change background and text color
 
 ### 2.1.0 
