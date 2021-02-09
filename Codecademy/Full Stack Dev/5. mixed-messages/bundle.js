@@ -2224,8 +2224,9 @@ process.nextTick(function(){(function (err,data) {
 
   // Remove the first and last \" from string using slice, then split it
   let splitted = randomQuote.slice(1, -2).split('","');
+  // let quote = '“ ' + splitted[1] + ' ”';
   let quote = splitted[1];
-  let author = splitted[0];
+  let author = '—' + splitted[0];
   while(!author) {
     randomIndex--;
     splitted = quoteArr[randomIndex].slice(1, -2).split('","');
