@@ -38,5 +38,7 @@ Thumbs.db
 
 **/.vscode
 **/node_modules
+**/base-project
+git-cheat-sheet-education.pdf
 package.json
 package-lock.json
